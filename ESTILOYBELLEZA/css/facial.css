@@ -1,0 +1,153 @@
+html {
+    background-color: #ffffff;
+  }
+  body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0 10px 10px 0;
+  }
+  
+  nav {
+    height: 60px;
+    background-color: lightyellow;
+    text-align: center;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 18px;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    color: #364a3b;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 6px;
+  }
+  
+  nav ul li a:hover {
+    color: #000000;
+  }
+
+  .container_1 {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    display: flex;
+    border: 7px solid  #364a3b;
+     }
+  .limpieza{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .imagen_limpieza {
+    width: 100%;
+    height: 100%;
+    position:relative;
+   
+  }
+   
+  #texto_limpieza {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    font-size: 3rem;
+    top: 0;
+    color: #ffffff;
+    font-family: "Migra";
+    text-align: center;
+  }
+  
+  .container_2 {
+    margin-top: 50px;
+    width: 100%;
+    height: 520px;
+    position: relative;
+    
+  }
+  .descripcion_facial{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20PX;
+  }
+
+  #descripcion_facial {
+    font-size: 2rem;
+    color: #070707;
+    font-family: "Migra";
+    text-align: center;
+    
+  }
+  
+  .imagen_facial{
+    position: relative;
+    left:23%;
+    width: 50%;
+    height: 70%;
+    border: 7px solid  #364a3b;
+  }
+  
+  /*PRUEBA*/
+  
+  .boton_cita{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 15px;
+    margin-top: 40PX;
+    margin-bottom: 40PX;
+   
+}
+.boton-agendar{
+    background-color: #364a3b;
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+.boton-agendar:hover {
+    background-color: #e7f0b5;
+}
+.container_pie_pagina {
+  background:#364a3b;
+  height: 150px;
+  display: grid;
+  display: flex;
+  color: #fafafa;
+  font-family: "Migra";
+  text-align:left;
+  
+}
+  .columnas {
+    width: 100%;
+    background: #364a3b;
+    display: grid;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+
+  .container_copyright {
+    background: #d9f8e8;
+    text-align: center;
+    font-size: 0.7rem;
+    font-family: "Times New Roman", Times, serif;
+    padding: 4px;
+    bottom: 0;
+    width: 99.4%;
+    height: 40px;
+    display: grid;
+    place-items: center;
+  }

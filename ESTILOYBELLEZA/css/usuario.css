@@ -1,0 +1,590 @@
+html {
+    background-color: #ffffff;
+  }
+  body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0 10px 10px 0;
+  }
+  
+  nav {
+    height: 60px;
+    background-color: lightyellow;
+    text-align: center;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 18px;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    color: #364a3b;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 6px;
+  }
+  
+  nav ul li a:hover {
+    color: #000000;
+  }
+ .bloque_1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+  .imagen_agendamiento {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: absolute;
+  }
+  #texto_agendamiento{
+  font-size: 2rem;
+  position: relative;
+  color: #fcfafa;
+  font-family: "Migra";
+  text-align:left;
+  padding-left: 300px;
+  }
+  .bloque_2 {
+    width: 100%;
+    height: 250px;
+    display: flex;
+  }
+  .imagen_tarjeta2 {
+    position: relative;
+    display: flex;
+    margin-right: 30px;
+  }
+  #citas_agendadas{
+    width: 76%;
+    height: 8%;
+    position: absolute;
+    font-size: 1.5rem;
+    background-color: #364a3b;
+    color: #f6f9f7;
+    font-family: "Migra";
+    display: flex;
+    margin-left: 280px;
+    text-align: center;
+  }
+  .acciones {
+    width: 100%;
+    height: 150px;
+    top: 90px;
+    display: flex;
+    margin-left:auto;
+    position: relative;
+  }
+  .accion {
+    margin-right: 5px;
+    padding: 10px 50px;
+    background-color:#364a3b;;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Migra";
+    color: #f6f9f7;
+    border: #364a3b 1px solid;
+  }
+  .celda-en-blanco {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(248, 244, 244);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Migra";
+    color: #364a3b;
+    text-align: center;
+    border: 1px solid #364a3b;
+  }
+  .boton_reserva{
+    width: 10%;
+    height: 30px;
+    padding: 5px 20px;
+    display: flex;
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Migra";
+    color: #ecf1ee;
+    margin-top: 240px;
+    margin-left: 280px;
+    background-color: #364a3b;
+    margin-bottom: 10px;
+  }
+  .boton_reserva:hover,
+  .boton_reserva:focus {
+    color:#364a3b;
+    background-color: #ddf09f;
+  }
+.bloque_3{
+  width: 100%;
+  height: 100px;
+}
+
+  #seleccionar_servicios{
+    width: 76%;
+    height: 8%;
+    margin-top: 50px;
+    position: absolute;
+    font-size: 1.5rem;
+    background-color: #364a3b;
+    color: #f6f9f7;
+    font-family: "Migra";
+    display: flex;
+    margin-left: 280px;
+    text-align: center;
+
+  }
+
+.bloque_4 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+   
+}
+.informacion_usuario {
+  width: 20%; 
+  height: 400px;
+  display: flex;
+  margin-top: 10px;
+  background-color: #364a3b;
+  position:absolute;
+}
+#informacion {
+  font-size: 0.9rem;
+  position: absolute;
+  color: #f6f5f5;
+  font-family: "Migra";
+  display: flex;
+  margin-left: 10px;
+  margin-top: 40px;
+  text-align: center;
+  
+ 
+  
+}
+
+.servicio1 {
+  width: calc(25% - 15px);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+  margin-left: 280px;
+ 
+
+}
+.servicio2 {
+  width: calc(25% - 15px);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+  margin-left: 10px;
+ 
+}
+.servicio3 {
+  width: calc(25% - 15px);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+  margin-left: 10px;
+ 
+}
+.servicio4 {
+  width: calc(25% - 15px);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+  margin-left: 280px;
+ 
+}
+.servicio5 {
+  width: calc(25% - 15px);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+  margin-left: 10px;
+ 
+}
+.servicio6 {
+  width: calc(25% - 15px);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+  margin-left: 10px;
+ 
+
+}
+.servicio label {
+  margin: 0;
+}
+
+.servicio input[type="checkbox"] {
+  margin-right: 5px;
+}
+  
+#total {
+
+font-weight: bold;
+margin-left: 600px;
+position: relative;
+  }
+  
+  #total-valor {
+  color: rgb(7, 58, 7);
+  }
+
+  .bloque_5{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  }
+  
+#seleccionar_estilista{
+width: 100%;
+height: 8%;
+margin-top: 30px;
+position: absolute;
+font-size: 1.5rem;
+background-color: #364a3b;
+color: #f6f9f7;
+font-family: "Migra";
+display: flex;
+text-align: center;
+  
+ }
+
+ .bloque_6 {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 350px;
+}
+.empleado_1 {
+  width: 33.3%;
+  height: 395px;
+  display: grid;
+  place-items: center;
+}
+.empleado_mujer_1 {
+  border-radius: 50%;
+  border: 7px solid  #364a3b;
+  width: 50%;
+  height: 50%;
+}
+
+.empleado_2 {
+  width: 33.3%;
+  height: 395px;
+  display: grid;
+  place-items: center;
+}
+.empleado_hombre {
+  border-radius: 50%;
+  border: 7px solid  #364a3b;
+  width: 50%;
+  height: 50%;
+}
+.empleado_3 {
+  width: 33.3%;
+  height: 370px;
+  display: grid;
+  place-items: center;
+}
+.empleado_mujer_2 {
+  border-radius: 50%;
+  border: 7px solid  #364a3b;
+  width: 50%;
+  height: 50%;
+}
+.empleado_4 {
+  width: 33.3%;
+  height: 370px;
+  display: grid;
+  place-items: center;
+}
+.cualquier_profesional {
+  border-radius: 50%;
+  border: 7px solid  #364a3b;
+  width: 50%;
+  height: 50%;
+}
+.elegir {
+  background-color: #364a3b;
+  color: #f6f9f7;
+  font-family: "Migra";
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+  padding: 10px 15px;
+  margin-top: 8px;
+}
+.elegir:hover {
+  background-color: #fafa82;
+  color: #364a3b;
+  font-family: "Migra";
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+}
+
+.bloque_7{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  }
+  
+#seleccionar_fecha{
+width: 100%;
+height: 8%;
+margin-top: 30px;
+position: absolute;
+font-size: 1.5rem;
+background-color: #364a3b;
+color: #f6f9f7;
+font-family: "Migra";
+display: flex;
+text-align: center;
+  
+ }
+ .bloque_8 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+   
+}
+.resumen_cita {
+  width: 20%; 
+  height: 560px;
+  display: flex;
+  margin-top: 10px;
+  background-color: #364a3b;
+  position:absolute;
+}
+#informacion_cita {
+  font-size: 0.9rem;
+  position: absolute;
+  color: #f6f5f5;
+  font-family: "Migra";
+  display: flex;
+  margin-left: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+.aceptar {
+  background-color: #364a3b;
+  color: #f6f9f7;
+  font-family: "Migra";
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+  padding: 10px 35px;
+  margin-top: 600px;
+  margin-left: 30px;
+  height: 40px;
+}
+.aceptar:hover {
+  background-color: #e8ef8a;
+  color: #364a3b;
+  font-family: "Migra";
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+}
+
+#dia {
+  width: 15%;
+  height: 30px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 150px;
+  background-color: #364a3b;
+  color: #ecf1ee;
+}
+#hora {
+  width: 15%;
+  height: 30px; 
+  position: absolute;    
+  margin-top: 10px;
+  margin-left: 600px;
+  background-color: #364a3b;
+  color: #ecf1ee;      
+}
+
+.calendar {
+  width: 77%;
+  height: 600px;
+  border: 1px solid #364a3b;;
+  padding: 10px;
+  margin-top: 80px;
+  position: relative;
+  display: flex;
+  color: #364a3b;
+  font-family: "Migra";
+}
+
+.bloque_9{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  }
+  
+#seleccionar_pago{
+width: 100%;
+height: 5%;
+margin-top: 30px;
+position: absolute;
+font-size: 1.5rem;
+background-color: #364a3b;
+color: #f6f9f7;
+font-family: "Migra";
+display: flex;
+text-align: center;
+  
+ }
+
+ .bloque_10 {
+  width: 100%;
+  height: auto; /* Cambiado de 400px a auto para que se ajuste dinámicamente al contenido */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+}
+
+.formulario {
+  width: 30%;
+  height: 200px;
+  margin-left: 400px;
+  display: none;
+  background-color: #364a3b;
+  color: #f6f9f7;
+  font-family: "Migra";
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+  padding: 10px 20px;
+  flex-direction: column;
+  align-content:center;
+  text-align:end;
+}
+
+.formulario.visible {
+  display: block; /* Cambiado de 'block' a 'visible' */
+}
+
+.pagar{
+  background-color: #364a3b;
+  color: #f6f9f7;
+  font-family: "Migra";
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+  padding: 10px 15px;
+  margin-left: 900px;
+  height: 30px;
+  width: 10%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.pagar:hover {
+  background-color: #e8ef8a;
+  color: #364a3b;
+  font-family: "Migra";
+  border-radius: 5px;
+  border: 1px solid #364a3b;
+}
+
+.container_pie_pagina {
+  background:#364a3b;
+  height: 150px;
+  display: grid;
+  display: flex;
+  color: #fafafa;
+  font-family: "Migra";
+  text-align:left;
+  
+}
+.columnas {
+  width: 100%;
+  background: #364a3b;
+  display: grid;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.container_copyright {
+  background: #d9f8e8;
+  text-align: center;
+  font-size: 0.7rem;
+  font-family: "Times New Roman", Times, serif;
+  padding: 4px;
+  bottom: 0;
+  width: 99.4%;
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
+

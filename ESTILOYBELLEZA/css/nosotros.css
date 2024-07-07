@@ -1,0 +1,257 @@
+html {
+  background-color: #ffffff;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 0 10px 10px 0;
+}
+
+nav {
+  height: 60px;
+  background-color: lightyellow;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  padding: 18px;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: #364a3b;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  color: #000000;
+ 
+}
+
+.container_1 {
+  width: 99%;
+  height: 120px;
+  display: flex;
+  border: 7px solid  #364a3b;
+  
+}
+.descripcion_nosotros,
+#descripcion_nosotros {
+  position: absolute;
+  width: 80%;
+  font-size: 3rem;
+  top: 25px;
+  color: #fafafa;
+  font-family: "Migra";
+  text-align: center;
+}
+
+.imagen_nosotros {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.container_2 {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  box-sizing: border-box;
+}
+
+.caja2 {
+  position: relative;
+  top: 300px;
+  font-size: 1.5rem;
+  color: #0c0c0c;
+  display: contents;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 10;
+  left: 50px;
+}
+
+#caja3 {
+  width: 40%;
+  height: 50%;
+  left: 450px;
+  border: 20px;
+  image-orientation: from-image;
+  margin: 10px;
+  border: 10px solid #364a3b;
+}
+
+.container_3 {
+  width: 98.8%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  box-sizing: border-box;
+  margin: 10px;
+}
+#caja4 {
+  width: 45%;
+  height: 45%;
+  border: 10px solid #364a3b;
+  image-orientation: from-image;
+  margin: 10px;
+}
+.caja5 {
+  position: relative;
+  font-size: 1.3rem;
+  color: #0c0c0c;
+  display: contents;
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  margin: 10px;
+}
+
+.container_estilistas {
+  display: flex;
+  text-align: center;
+  margin: 10 px;
+  width: 100%;
+  height: 100%;
+}
+.estilista_1 {
+  width: 33.3%;
+  height: 395px;
+  display: grid;
+  place-items: center;
+}
+.estilista_mujer_1 {
+  border-radius: 50%;
+  border: 7px solid  #364a3b;
+  width: 50%;
+  height: 50%;
+}
+
+.estilista_2 {
+  width: 33.3%;
+  height: 395px;
+  display: grid;
+  place-items: center;
+}
+.estilista_hombre {
+  border-radius: 50%;
+  border: 7px solid  #364a3b;
+  width: 50%;
+  height: 50%;
+}
+.estilista_3 {
+  width: 33.3%;
+  height: 370px;
+  display: grid;
+  place-items: center;
+}
+.estilista_mujer_2 {
+  border-radius: 50%;
+  border: 7px solid  #364a3b;
+  width: 50%;
+  height: 50%;
+}
+
+.caja9 {
+  width: 33.3%;
+  height: 350px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.gerente {
+  border-radius: 50%;
+  border: 7px solid  #364a3b;
+  width: 50%;
+  height: 50%;
+}
+.container_4 {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  padding: 5px;
+  width: 100%;
+}
+.descripcion_equipo,
+#descripcion_equipo {
+  position: absolute;
+  width: 80%;
+  font-size: 3rem;
+  top: 416px;
+  color: #fafafa;
+  font-family: "Migra";
+  text-align: center;
+}
+
+.imagen_equipo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 7px solid  #364a3b;
+}
+
+.container_pie_pagina {
+  background:#364a3b;
+  height: 150px;
+  display: grid;
+  display: flex;
+  color: #fafafa;
+  font-family: "Migra";
+  text-align:left;
+  
+}
+.columnas {
+  width: 100%;
+  background: #364a3b;
+  display: grid;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.boton_cita{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 15px;
+   
+}
+.boton-agendar{
+    background-color: #364a3b;
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+.boton-agendar:hover {
+    background-color: #e7f0b5;
+}
+.container_copyright {
+  background: #d9f8e8;
+  text-align: center;
+  font-size: 0.7rem;
+  font-family: "Times New Roman", Times, serif;
+  padding: 4px;
+  bottom: 0;
+  width: 99.4%;
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
