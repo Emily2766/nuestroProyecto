@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilo y Belleza</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="/ESTILOYBELLEZA/js/index.js"> 
-    <link rel="stylesheet" href="/ESTILOYBELLEZA/css/index.css">
+    <link rel="stylesheet" href="../js/index.js"> 
+    <link rel="stylesheet" href="../css/index.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
         integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
@@ -19,14 +19,14 @@
 <body>
     <nav class="navegation_principal">
         <ul>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">INICIO</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/nosotros.html">NOSOTROS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/citas.html">CITAS</a></li>
+            <li><a href="../html/index.php">INICIO</a></li>
+            <li><a href="../html/nosotros.php">NOSOTROS</a></li>
+            <li><a href="../html/citas.php">CITAS</a></li>
         </ul>
     </nav>
 
     <article class="container_1">
-        <img class="imagen_inicial" src="/ESTILOYBELLEZA/img/estilo_y_belleza.jpg" alt="">
+        <img class="imagen_inicial" src="../img/estilo_y_belleza.jpg" alt="">
         <div class="nombre_proyecto">
             <p id="nombre_proyecto"> <strong> ESTILO & BELLEZA </strong></p>
             <p id="nombre_proyecto2"> <strong>Cristina - Erick - Patricia</strong></p>
@@ -42,23 +42,23 @@
             <div class="container_femenino">
 
                 <div class="tinte_f">
-                    <a href="/ESTILOYBELLEZA/html/Tinte.html"> 
+                    <a href="../html/Tinte.php"> 
                     <button class="tinte_texto">TINTES</button> 
                     </a>
                 </div>
                 <div class="tintes">
-                    <img id="foto_f" src="/ESTILOYBELLEZA/img/tintura_dama.jpg" alt="">
+                    <img id="foto_f" src="../img/tintura_dama.jpg" alt="">
                 </div>
 
                 <div class="keratina">
-                    <img id="foto_f" src="/ESTILOYBELLEZA/img/keratina_dama.jpg" alt="">
-                    <a href="/ESTILOYBELLEZA/html/keratina.html"> <!-- enlace para la pag keratina -->
+                    <img id="foto_f" src="../img/keratina_dama.jpg" alt="">
+                    <a href="../html/keratina.php"> <!-- enlace para la pag keratina -->
                     <button class="keratina_texto">KERATINA</button>
                     </a>
                 </div>
                 <div class="corte_f">
-                    <img id="foto_f" src="/ESTILOYBELLEZA/img/corte_dama.jpg" alt="">
-                    <a href="/ESTILOYBELLEZA/html/corteF.html"> <!-- enlace para la pag corteF -->
+                    <img id="foto_f" src="../img/corte_dama.jpg" alt="">
+                    <a href="../html/corteF.php"> <!-- enlace para la pag corteF -->
                     <button class="corte_texto_f">CORTE</button>
                 </a>
                 </div>
@@ -70,22 +70,22 @@
             </div>
             <div class="container_masculino">
                 <div class="corte_m">
-                    <a href="/ESTILOYBELLEZA/html/corteM.html"> <!-- enlace para la pag corteM -->
+                    <a href="../html/corteM.php"> <!-- enlace para la pag corteM -->
                    <button class="corte_texto_m">CORTE</button>
                     </a>
                 </div>
                 <div class="corte_foto_m">
-                    <img id="foto_m" src="/ESTILOYBELLEZA/img/corte_masculino.jpg" alt="">
+                    <img id="foto_m" src="../img/corte_masculino.jpg" alt="">
                 </div>
                 <div class="facial">
-                    <img id="foto_m" src="/ESTILOYBELLEZA/img/facial_masculino.jpg" alt="">
-                    <a href="/ESTILOYBELLEZA/html/facial.html"> <!-- enlace para la pag facial -->
+                    <img id="foto_m" src="../img/facial_masculino.jpg" alt="">
+                    <a href="../html/facial.php"> <!-- enlace para la pag facial -->
                     <button class="facial_texto">FACIAL</button>
                     </a>
                 </div>
                 <div class="barberia">
-                    <img id="foto_m" src="/ESTILOYBELLEZA/img/corte_barba.jpg" alt="">
-                    <a href="/ESTILOYBELLEZA/html/barberia.html"> <!-- enlace para la pag barberia -->
+                    <img id="foto_m" src="../img/corte_barba.jpg" alt="">
+                    <a href="../html/barberia.php"> <!-- enlace para la pag barberia -->
                     <button class="barberia_texto">BARBERIA</button>
                     </a>
                 </div>
@@ -95,7 +95,7 @@
 
     <article class="container_6">
         <div class="caja9">
-            <img id="antes_despues" src="/ESTILOYBELLEZA/img/antes_despues.jpg" alt="">
+            <img id="antes_despues" src="../img/antes_despues.jpg" alt="">
             <p id="antes_despues_texto"> <strong>ANTES Y DESPUES</strong></p>
         </div>
 
@@ -116,7 +116,7 @@
                         </svg> Recuperar Contraseña</a><br><br>
                     <button type="submit">Iniciar Sesión</button>
                     <br><br>
-                    <p><a href="/ESTILOYBELLEZA/html/registro.html"><b>Regístrate</a></p></b>
+                    <p><a href="../html/registro.php"><b>Regístrate</a></p></b>
                 </form>
             </div>
 
@@ -144,7 +144,7 @@
           <p class="autor">- Raul Cifuentes</p>
         </div>
       </div>
-    <script src="/ESTILOYBELLEZA/js/index.js"></script>
+    <script src="../js/index.js"></script>
 
  
     <footer>

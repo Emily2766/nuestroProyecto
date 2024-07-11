@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/ESTILOYBELLEZA/css/corteM.css">
+    <link rel="stylesheet" href="../css/Tinte.css">
 
-    <title>CORTE MASCULINO</title>
+    <title>TINTE</title>
 </head>
 <body>
     <nav class="navegation_principal">
         <ul>
             <li><i class="bi bi-list"></i></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">INICIO</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/nosotros.html">NOSOTROS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">SERVICIOS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/citas.html">CITAS</a></li>
+            <li><a href="../html/index.php">INICIO</a></li>
+            <li><a href="../html/nosotros.php">NOSOTROS</a></li>
+            <li><a href="../html/index.php">SERVICIOS</a></li>
+            <li><a href="../html/citas.php">CITAS</a></li>
        </ul>
     </nav>
 
     <article class="container_1">
-        <div class="corte_hombre">
-            <div class="imagen_corte_hombre">
-                <img class="imagen_corte_hombre" src="/ESTILOYBELLEZA/img/nosotros3.jpg" alt="foto de Nosotros">
-              <p id="texto_corte_hombre"> <strong> CORTE HOMBRE </strong></p>
+        <div class="tinte">
+            <div class="imagen_tinte">
+                <img class="imagen_tinte" src="../img/nosotros3.jpg" alt="foto de nosotros">
+              <p id="texto_tinte"> <strong> TINTES </strong></p>
             </div>
             </div>
             
@@ -30,10 +30,9 @@
   
 
      <article class="container_2">
-        <img class="imagen_corteM" src="/ESTILOYBELLEZA/img/corte_masculino.jpg" alt="">
-        <div class="descripcion_corteM">
-        <p id="descripcion_corteM">Contamos con los mejores profesionales para 
-            que luzcas el mejor look sin dañar tu cabello; para todas las edades se diseña un corte teniendo como base la densidad, elasticidad y longitud del cabello para lograr el estilo más adecuado acorde con las facciones y características físicas de cada persona</p>
+        <img class="imagen_tintura" src="../img/tintura_dama.jpg" alt="">
+        <div class="descripcion_tintura">
+        <p id="descripcion_tintura">Coloramos tu cabello segun tu necesidad, manejamos los mejores cosméticos capilares decorativos que tienen como finalidad cambiar el color o decolorar el pelo de forma temporal, semipermanente, o permanente</p>
         </div> <br>
        
 
@@ -41,7 +40,7 @@
 
     <article>
         <div class="boton_cita">
-            <a href="/ESTILOYBELLEZA/html/citas.html">
+            <a href="../html/citas.php">
                 <button class="boton-agendar">Agendar Cita</button>
             </a>
         </div>

@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/ESTILOYBELLEZA/css/nosotros.css">
+    <link rel="stylesheet" href="../css/nosotros.css">
     <title>Nosotros</title>
 </head>
 <body>
     <nav class="navegation_principal">
         <ul>
             <li><i class="bi bi-list"></i></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">INICIO</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/nosotros.html">NOSOTROS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">SERVICIOS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/citas.html">CITAS</a></li>
+            <li><a href="../html/index.php">INICIO</a></li>
+            <li><a href="../html/nosotros.php">NOSOTROS</a></li>
+            <li><a href="../html/index.php">SERVICIOS</a></li>
+            <li><a href="../html/citas.php">CITAS</a></li>
        </ul>
     </nav>
 
     <article class="container_1">
-        <img class="imagen_nosotros" src="/ESTILOYBELLEZA/img/nosotros3.jpg" alt="">
+        <img class="imagen_nosotros" src="../img/nosotros3.jpg" alt="">
         <div class="descripcion_nosotros">
             <p id="descripcion_nosotros"> <strong> NOSOTROS </strong></p>
         </div>
@@ -34,12 +34,12 @@
             brindando a nuestros clientes no  solo servicios de alta calidad, 
             sino también una experiencia única y rejuvenecedora.
          </p> <br>
-         <img id="caja3" src="/ESTILOYBELLEZA/img/vision3.jpg" alt="">
+         <img id="caja3" src="../img/vision3.jpg" alt="">
     </div>
 </article>
 
 <article class="container_3">
-    <img id="caja4" src="/ESTILOYBELLEZA/img/mision2.jpg" alt="">
+    <img id="caja4" src="../img/mision2.jpg" alt="">
     <div class="caja5">
     <p> <b>MISIÓN <br></b> Estilo y Belleza, nuestra misión es trascender los límites convencionales 
         de la belleza, inspirando confianza y empoderamiento en cada cliente que cruza nuestras puertas. 
@@ -53,7 +53,7 @@
 </article>
 
 <article class="container_4">
-    <img class="imagen_equipo" src="/ESTILOYBELLEZA/img/nosotros3.jpg" alt="">
+    <img class="imagen_equipo" src="../img/nosotros3.jpg" alt="">
     <div class="descripcion_equipo">
         <p id="descripcion_equipo"> <strong> NUESTRO EQUIPO </strong></p>
     </div>
@@ -62,7 +62,7 @@
 <article class="container_estilistas">
     <div class="estilista_1">
         <div class="foto_est_1">
-            <img class="estilista_mujer_1" src="/ESTILOYBELLEZA/img/estilista_mujer_1.jpg" alt="aqui va una foto de la estilista"><br><br>
+            <img class="estilista_mujer_1" src="../img/estilista_mujer_1.jpg" alt="aqui va una foto de la estilista"><br><br>
             <strong>Patricia Medina</strong> <br>
             <i>Estilista profesional</i><br>
             5 años de experiencia <br>
@@ -75,7 +75,7 @@
 
     <div class="estilista_2">
         <div class="foto_est_2">
-            <img class="estilista_hombre" src="/ESTILOYBELLEZA/img/estilista_hombre.jpg" alt="aqui va una foto de la estilista"><br><br>
+            <img class="estilista_hombre" src="../img/estilista_hombre.jpg" alt="aqui va una foto de la estilista"><br><br>
             <strong>Erick Viloria</strong><br>
             <i>Barbero profesional</i><br>
             7 años de experiencia en barbería<br>
@@ -88,7 +88,7 @@
 
     <div class="estilista_3">
         <div class="foto_est_3">
-            <img class="estilista_mujer_2" src="/ESTILOYBELLEZA/img/estilista_mujer_2.jpg" alt="aqui va una foto de la estilista"><br><br>
+            <img class="estilista_mujer_2" src="../img/estilista_mujer_2.jpg" alt="aqui va una foto de la estilista"><br><br>
             <strong> Cristina Zapata</strong><br>
             <i> Profesional en técnicas de color</i><br>
             8 años de experiencia estilista profesional<br>
@@ -100,7 +100,7 @@
 
     <div class="caja9">
         <div class="foto_4">
-        <img class="gerente" src="/ESTILOYBELLEZA/img/gerente.jpg" alt="aqui va una foto del gerente"><br><br>
+        <img class="gerente" src="../img/gerente.jpg" alt="aqui va una foto del gerente"><br><br>
         <strong>Isabella Stiliano</strong><br>
         <i> Administradora</i><br>
         10 años de experiencia <br>
@@ -112,7 +112,7 @@
 
 <article>
     <div class="boton_cita">
-        <a href="/ESTILOYBELLEZA/html/citas.html">
+        <a href="../html/citas.php">
             <button class="boton-agendar">Agendar Cita</button>
         </a>
     </div>

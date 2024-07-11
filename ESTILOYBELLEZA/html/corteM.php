@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/ESTILOYBELLEZA/css/keratina.css">
+    <link rel="stylesheet" href="../css/corteM.css">
 
-    <title>KERATINA</title>
+    <title>CORTE MASCULINO</title>
 </head>
 <body>
     <nav class="navegation_principal">
         <ul>
             <li><i class="bi bi-list"></i></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">INICIO</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/nosotros.html">NOSOTROS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">SERVICIOS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/citas.html">CITAS</a></li>
+            <li><a href="../html/index.php">INICIO</a></li>
+            <li><a href="../html/nosotros.php">NOSOTROS</a></li>
+            <li><a href="../html/index.php">SERVICIOS</a></li>
+            <li><a href="../html/citas.php">CITAS</a></li>
        </ul>
     </nav>
 
     <article class="container_1">
-        <div class="liso">
-            <div class="imagen_liso">
-                <img class="imagen_liso" src="/ESTILOYBELLEZA/img/nosotros3.jpg" alt="foto de Nosotros">
-              <p id="texto_liso"> <strong> KERATINA </strong></p>
+        <div class="corte_hombre">
+            <div class="imagen_corte_hombre">
+                <img class="imagen_corte_hombre" src="../img/nosotros3.jpg" alt="foto de Nosotros">
+              <p id="texto_corte_hombre"> <strong> CORTE HOMBRE </strong></p>
             </div>
             </div>
             
@@ -30,9 +30,10 @@
   
 
      <article class="container_2">
-        <img class="imagen_keratina" src="/ESTILOYBELLEZA/img/keratina_dama.jpg" alt="">
-        <div class="descripcion_keratina">
-        <p id="descripcion_keratina">Transformamos tu cabello con termoprotectores  naturales que brindan el brillo, liso y suavidad que necesitas. Nutre y reestructura todo el cabello de forma natural ayuda a las fibras capilares, reconstruye la fibra capilar protege y sana tu pelo de todo el daño que ocasionan las planchas o secadores.</p>
+        <img class="imagen_corteM" src="../img/corte_masculino.jpg" alt="">
+        <div class="descripcion_corteM">
+        <p id="descripcion_corteM">Contamos con los mejores profesionales para 
+            que luzcas el mejor look sin dañar tu cabello; para todas las edades se diseña un corte teniendo como base la densidad, elasticidad y longitud del cabello para lograr el estilo más adecuado acorde con las facciones y características físicas de cada persona</p>
         </div> <br>
        
 
@@ -40,7 +41,7 @@
 
     <article>
         <div class="boton_cita">
-            <a href="/ESTILOYBELLEZA/html/citas.html">
+            <a href="../html/citas.php">
                 <button class="boton-agendar">Agendar Cita</button>
             </a>
         </div>

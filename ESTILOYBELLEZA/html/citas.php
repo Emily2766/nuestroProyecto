@@ -3,45 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/ESTILOYBELLEZA/css/barberia.css">
+        <link rel="stylesheet" href="../css/citas.css">
 
-    <title>BARBERIA</title>
+
+    <title>Citas</title>
 </head>
+
 <body>
     <nav class="navegation_principal">
         <ul>
             <li><i class="bi bi-list"></i></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">INICIO</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/nosotros.html">NOSOTROS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">SERVICIOS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/citas.html">CITAS</a></li>
+            <li><a href="../html/index.php">INICIO</a></li>
+            <li><a href="../html/nosotros.php">NOSOTROS</a></li>
+            <li><a href="../html/index.php">SERVICIOS</a></li>
+            <li><a href="../html/citas.php">CITAS</a></li>
        </ul>
     </nav>
 
     <article class="container_1">
-        <div class="barba">
-            <div class="imagen_barba">
-                <img class="imagen_barba" src="/ESTILOYBELLEZA/img/nosotros3.jpg" alt="foto de Nosotros">
-              <p id="texto_barba"> <strong> BARBERIA </strong></p>
+        <div class="citas">
+            <div class="imagen_citas">
+                <img class="imagen_citas" src="../img/nosotros3.jpg" alt="foto de nosotros">
+              <p id="texto_citas"> <strong> AGENDAMIENTO DE CITAS </strong></p>
             </div>
             </div>
             
      </article> 
-       <article class="container_2">
-        <img class="imagen_barberia" src="/ESTILOYBELLEZA/img/corte_barba.jpg" alt="">
-        <div class="descripcion_barberia">
-        <p id="descripcion_barberia">Transformamos tu cabello con termoprotectores  naturales que brindan el brillo, liso y suavidad que necesitas. Nutre y reestructura todo el cabello de forma natural ayuda a las fibras capilares, reconstruye la fibra capilar protege y sana tu pelo de todo el daño que ocasionan las planchas o secadores.</p>
-        </div> <br>
-    </article> 
+     
+    <article class="container_2">
+        <div class="imagen_antes_despues">
+            <img id="antes_despues" src="../img/antes_despues.jpg" alt="">
+            <p id="antes_despues_texto"> <strong>ANTES Y DESPUES</strong></p>
+        </div>
 
-    <article>
-        <div class="boton_cita">
-            <a href="/ESTILOYBELLEZA/html/citas.html">
-                <button class="boton-agendar">Agendar Cita</button>
-            </a>
+        <div class="login-container"><br>
+            <div class="formulario">
+                <h2><b> ESTILO <br> & <br>BELLEZA</h2><br></b>
+                <form action="tu_archivo_de_procesamiento.php" method="post">
+                    <label for="username"><i class="bi bi-person-fill"></i><b> Usuario</label></b>
+                    <input type="text" id="username" name="username" required>
+                    <br><br>
+                    <label for="password"><i class="bi bi-shield-lock-fill"></i><b> Contraseña</label></b>
+                    <input type="password" id="password" name="password" required>
+                    <br>
+                    <a href="recuperar_contrasena.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                        </svg> Recuperar Contraseña</a><br><br>
+                    <button type="submit">Iniciar Sesión</button>
+                    <br><br>
+                    <p><a href="registro.php"><b>Regístrate</a></p></b>
+                </form>
+            </div>
+
         </div>
     </article>
-    
     <footer>
         <div class="container_pie_pagina">
             <div class="columnas"> <p> <b> Estilo & Belleza </b>

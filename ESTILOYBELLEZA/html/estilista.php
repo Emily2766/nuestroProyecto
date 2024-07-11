@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PERFIL ESTILISTA</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="/ESTILOYBELLEZA/js/estilista.js"> 
-    <link rel="stylesheet" href="/ESTILOYBELLEZA/css/estilista.css">
+    <link rel="stylesheet" href="../js/estilista.js"> 
+    <link rel="stylesheet" href="../css/estilista.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
         integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
@@ -21,14 +21,14 @@
     <nav class="navegation_principal">
         <ul>
             <li><i class="bi bi-list"></i></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">INICIO</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">SERVICIOS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/citas.html">CITAS</a></li>
+            <li><a href="../html/index.php">INICIO</a></li>
+            <li><a href="../html/index.php">SERVICIOS</a></li>
+            <li><a href="../html/citas.php">CITAS</a></li>
         </ul>
     </nav>
 
     <article class="container_1">
-        <img class="imagen_inicial" src="/ESTILOYBELLEZA/img/estilo_y_belleza.jpg" alt="">
+        <img class="imagen_inicial" src="../img/estilo_y_belleza.jpg" alt="">
         <div class="nombre_proyecto">
             <p id="nombre_proyecto"> <strong> ESTILO & BELLEZA </strong></p>
             <p id="nombre_proyecto2"> <strong>Cristina - Erick - Patricia</strong></p>
@@ -38,7 +38,7 @@
     <article class="container_perfil2">
         <div class="perfiles_estilistas2">
         <div class="imagen_perfil2">
-            <img class="imagen_perfil2" src="/ESTILOYBELLEZA/img/Fondo verde.jpg" alt="foto de nosotros">
+            <img class="imagen_perfil2" src="../img/Fondo verde.jpg" alt="foto de nosotros">
           <p id="descripcion_perfil2"> <strong> ESTILISTA </strong></p>
         </div>
         </div>
@@ -47,7 +47,7 @@
     <article class="container_estilistas2">
     <div class="estilista_h2">
         <div class="foto_est_h2">
-            <img class="estilista_hombre2" src="/ESTILOYBELLEZA/img/estilista_hombre.jpg" alt="aqui va una foto de la estilista"><br><br>
+            <img class="estilista_hombre2" src="../img/estilista_hombre.jpg" alt="aqui va una foto de la estilista"><br><br>
         </div>
         <div classs="estilista_h3"> 
             <div class="texto_estilista_h3">
@@ -65,7 +65,7 @@
     <article class="agenda_estilista">
         <div class="agenda_estilista">
         <div class="imagen_perfil3">
-            <img class="imagen_perfil3" src="/ESTILOYBELLEZA/img/Fondo verde.jpg" alt="fondo verde">
+            <img class="imagen_perfil3" src="../img/Fondo verde.jpg" alt="fondo verde">
           <p id="descripcion_perfil3"> <strong> AGENDA ESTILISTA </strong></p>
         </div>
         </div>
@@ -73,7 +73,7 @@
 
     <div id="calendar"></div>
 
-    <script src="/ESTILOYBELLEZA/js/estilista.js"></script> <!-- me falta el script -->
+    <script src="../js/estilista.js"></script> <!-- me falta el script -->
     <footer>
         <div class="container_pie_pagina">
             <div class="columnas">

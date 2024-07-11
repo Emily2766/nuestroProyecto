@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/ESTILOYBELLEZA/css/Tinte.css">
+    <link rel="stylesheet" href="../css/facial.css">
 
-    <title>TINTE</title>
+    <title>FACIAL</title>
 </head>
 <body>
     <nav class="navegation_principal">
         <ul>
             <li><i class="bi bi-list"></i></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">INICIO</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/nosotros.html">NOSOTROS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/index.html">SERVICIOS</a></li>
-            <li><a href="/ESTILOYBELLEZA/html/citas.html">CITAS</a></li>
+            <li><a href="../html/index.php">INICIO</a></li>
+            <li><a href="../html/nosotros.php">NOSOTROS</a></li>
+            <li><a href="../html/index.php">SERVICIOS</a></li>
+            <li><a href="../html/citas.php">CITAS</a></li>
        </ul>
     </nav>
 
     <article class="container_1">
-        <div class="tinte">
-            <div class="imagen_tinte">
-                <img class="imagen_tinte" src="/ESTILOYBELLEZA/img/nosotros3.jpg" alt="foto de nosotros">
-              <p id="texto_tinte"> <strong> TINTES </strong></p>
+        <div class="limpieza">
+            <div class="imagen_limpieza">
+                <img class="imagen_limpieza" src="../img/nosotros3.jpg" alt="foto de Nosotros">
+              <p id="texto_limpieza"> <strong> LIMPIEZA FACIAL </strong></p>
             </div>
             </div>
             
@@ -30,9 +30,9 @@
   
 
      <article class="container_2">
-        <img class="imagen_tintura" src="/ESTILOYBELLEZA/img/tintura_dama.jpg" alt="">
-        <div class="descripcion_tintura">
-        <p id="descripcion_tintura">Coloramos tu cabello segun tu necesidad, manejamos los mejores cosméticos capilares decorativos que tienen como finalidad cambiar el color o decolorar el pelo de forma temporal, semipermanente, o permanente</p>
+        <img class="imagen_facial" src="../img/facial_masculino.jpg" alt="">
+        <div class="descripcion_facial">
+        <p id="descripcion_facial">Transformamos tu cabello con termoprotectores  naturales que brindan el brillo, liso y suavidad que necesitas. Nutre y reestructura todo el cabello de forma natural ayuda a las fibras capilares, reconstruye la fibra capilar protege y sana tu pelo de todo el daño que ocasionan las planchas o secadores.</p>
         </div> <br>
        
 
@@ -40,7 +40,7 @@
 
     <article>
         <div class="boton_cita">
-            <a href="/ESTILOYBELLEZA/html/citas.html">
+            <a href="../html/citas.php">
                 <button class="boton-agendar">Agendar Cita</button>
             </a>
         </div>
