@@ -1,49 +1,37 @@
 <?php
-$servername = "localhost"; // Nombre del servidor (por lo general, localhost)
-$username = "root"; // Nombre de usuario de la base de datos
-$password = ""; // Contraseña de la base de datos
-$database = "proyecto"; // Nombre de la base de datos
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "proyecto";
 
-// Crear conexión  databaseproyecto
-$conn = new mysqli($servername, $username, $password, $database);
+// Crear conexión
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-// Verificar la conexión
+// Verificar conexión
 if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
-} else {
-    echo "°";
 }
 
-
-// Verificar si el formulario se ha enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST['username'];
+    $nombre = $_POST['nombre'];
     $correo = $_POST['correo'];
     $cedula = $_POST['cedula'];
     $telefono = $_POST['telefono'];
-    $gender = $_POST['gender'];
-    $user = $_POST['user'];
-    $password = $_POST['password'];
+    $sexo = $_POST['sexo'];
+    $usuario = $_POST['usuario'];
+    $contrasena = password_hash($_POST['contrasena'], PASSWORD_DEFAULT);
 
-    // Preparar y bind
-    $stmt = $conn->prepare("INSERT INTO usuario (nombre,  correo, cedula, telefono, sexo, usuario, contrasena) VALUES (?, ?, ?, ?, ?, ? , ?)");
-    $stmt->bind_param("sssssss", $username,  $correo, $cedula, $telefono, $gender, $user, $password);
+    $sql = "INSERT INTO usuario (nombre, correo, cedula, telefono, sexo, usuario, contrasena)
+            VALUES ('$nombre', '$correo', '$cedula', '$telefono', '$sexo', '$usuario', '$contrasena')";
 
-    // Ejecutar la consulta
-    if ($stmt->execute()) {
+    if ($conn->query($sql) === TRUE) {
         echo "Registro exitoso";
     } else {
-        echo "Error: " . $stmt->error;
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
-
-    $stmt->close();
 }
-
 $conn->close();
 ?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -73,35 +61,34 @@ $conn->close();
 
     <article class="container_2">
         <div class="formulario">
-            <form action="registro.php" method="POST">
-                <label for="username"><i class="bi bi-person-fill"></i><b> Nombre</label></b>
-                <input type="text" id="username" name="username" required>
-                <br><br>
-                <label for="lastname"><i class="bi bi-shield-lock-fill"></i><b> Apellidos</label></b>
-                <input type="text" id="lastname" name="lastname" >
-                <br><br>
-                <label for="correo"><i class="bi bi-shield-lock-fill"></i><b> Email</label></b>
-                <input type="correo" id="email" name="correo" required>
-                <br><br>
-                <label for="cedula"><i class="bi bi-shield-lock-fill"></i><b>Cedula</label></b>
-                <input type="text" id="cedula" name="cedula" required>
-                <br><br>
-                <label for="telefono"><i class="bi bi-shield-lock-fill"></i><b> Celular</label></b>
-                <input type="text" id="phone" name="telefono" required>
-                <br><br>
-                <label for="gender"><i class="bi bi-shield-lock-fill"></i><b> Sexo </label></b>
-                <input type="text" id="gender" name="gender" required>
-                <br><br>
-                <label for="user"><i class="bi bi-shield-lock-fill"></i><b> Usuario </label></b>
-                <input type="text" id="user" name="user" required>
-                <br><br>
-                <label for="password"><i class="bi bi-shield-lock-fill"></i><b> Contraseña</label></b>
-                <input type="password" id="password" name="password" required>
-                <br><br>
-                <button type="submit" class="boton_registro"><b>Registrarme</b></button>
-                <br><br>
-                <button class="boton" onclick="window.location.href='index.html';">Volver</button>
-            </form>
+        <form action="registro.php" method="post">
+    <label for="nombre"><i class="bi bi-person-fill"></i><b> Nombre</label></b>
+    <input type="text" id="nombre" name="nombre" required>
+    <br><br>
+    <label for="correo"><i class="bi bi-shield-lock-fill"></i><b> Correo</label></b>
+    <input type="correo" id="correo" name="correo" required>
+    <br><br>
+    <label for="cedula"><i class="bi bi-shield-lock-fill"></i><b> Cédula</label></b>
+    <input type="text" id="cedula" name="cedula" required>
+    <br><br>
+    <label for="telefono"><i class="bi bi-shield-lock-fill"></i><b> Telefono</label></b>
+    <input type="text" id="telefono" name="telefono" required>
+    <br><br>
+    <label for="sexo"><i class="bi bi-shield-lock-fill"></i><b> Sexo</label></b>
+    <input type="text" id="sexo" name="sexo" required>
+    <br><br>
+    <label for="usuario"><i class="bi bi-shield-lock-fill"></i><b> Usuario</label></b>
+    <input type="text" id="usuario" name="usuario" required>
+    <br><br>
+    <label for="contrasena"><i class="bi bi-shield-lock-fill"></i><b> Contraseña</label></b>
+    <input type="password" id="contrasena" name="contrasena" required>
+    <br><br>
+    <button type="submit" class="boton_registro"><b>Registrarme</b></button>
+    <br><br>
+    <button class="boton" onclick="window.location.href='index.php';">Volver</button>
+</form>
+
+                
         </div>
     </article>
 </body>

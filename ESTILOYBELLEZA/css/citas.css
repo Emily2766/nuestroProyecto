@@ -37,6 +37,32 @@ nav ul li a {
 nav ul li a:hover {
   color: #000000;
 }
+/* Estilo base para mensajes flotantes */
+.mensaje-flotante {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 300px; /* Ancho del mensaje */
+  text-align: center;
+  display: none; /* Inicialmente oculto */
+}
+
+/* Estilo para mensaje de error */
+.mensaje-error {
+  background-color: #f44336; /* Rojo */
+  color: white;
+}
+
+/* Estilo para mensaje de éxito */
+.mensaje-exito {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+}
+
 
 .container_1 {
   width: 100%;
